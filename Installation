@@ -1,0 +1,2 @@
+# Install all required dependencies
+pip install requests beautifulsoup4 reportlab
