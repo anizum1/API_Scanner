@@ -1,0 +1,14 @@
+# Basic scan with console output only
+python3 api_scanner.py https://yourwebsite.com
+
+# Save as JSON
+python3 api_scanner.py https://yourwebsite.com -o report.json
+
+# Save as TXT
+python3 api_scanner.py https://yourwebsite.com --txt report.txt
+
+# Save as PDF
+python3 api_scanner.py https://yourwebsite.com --pdf report.pdf
+
+# Save in all formats at once
+python3 api_scanner.py https://yourwebsite.com -o report.json --txt report.txt --pdf report.pdf
