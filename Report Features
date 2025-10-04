@@ -1,0 +1,24 @@
+TXT Report includes:
+
+Clean, readable text format
+Timestamp of scan
+Complete list of discovered endpoints
+Detailed vulnerability findings
+Easy to view in any text editor
+
+PDF Report includes:
+
+Professional formatting with colors
+Summary table with key metrics
+Organized sections for endpoints and vulnerabilities
+Color-coded severity levels (High=Red, Medium=Yellow, Low=Green)
+Disclaimer and best practices notes
+Timestamp and target information
+
+JSON Report includes:
+
+Machine-readable format
+Perfect for automation or further processing
+All scan data in structured format
+
+The PDF report will look professional and is great for documentation or sharing with team members. The TXT format is perfect for quick reviews and can be easily parsed by other tools.
