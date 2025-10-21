@@ -1,2 +1,37 @@
 # Install all required dependencies
 pip install requests beautifulsoup4 reportlab
+
+
+Solution 1: Use Kali's Package Manager (Recommended)
+sudo apt update
+sudo apt install python3-requests python3-bs4 python3-reportlab -y
+
+Solution 2: Use pipx (For isolated installations)
+bash# Install pipx first
+sudo apt install pipx -y
+
+# Install packages with pipx
+pipx install requests
+pipx install beautifulsoup4
+pipx install reportlab
+
+Solution 3: Create a Virtual Environment
+bash# Install venv if not already installed
+sudo apt install python3-venv -y
+
+# Create virtual environment
+python3 -m venv ~/api_scanner_env
+
+# Activate it
+source ~/api_scanner_env/bin/activate
+
+# Install packages
+pip install requests beautifulsoup4 reportlab
+
+# Now run your tool
+python3 aapipii.py https://example.com
+
+# To deactivate when done
+deactivate
+Solution 4: Override Protection (Not Recommended)
+bashpip3 install --break-system-packages requests beautifulsoup4 reportlab
